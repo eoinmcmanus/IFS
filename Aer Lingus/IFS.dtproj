@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProductVersion>10.50.4000.0</ProductVersion>
+  <SchemaVersion>9.0.1.0</SchemaVersion>
+  <State>$base64$PFNvdXJjZUNvbnRyb2xJbmZvIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOmRkbDI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yIiB4bWxuczpkZGwyXzI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yLzIiIHhtbG5zOmRkbDEwMF8xMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDA4L2VuZ2luZS8xMDAvMTAwIiB4bWxuczpkZGwyMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAiIHhtbG5zOmRkbDIwMF8yMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAvMjAwIiB4bWxuczpkd2Q9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vRGF0YVdhcmVob3VzZS9EZXNpZ25lci8xLjAiPg0KICA8RW5hYmxlZD5mYWxzZTwvRW5hYmxlZD4NCiAgPFByb2plY3ROYW1lPjwvUHJvamVjdE5hbWU+DQogIDxBdXhQYXRoPjwvQXV4UGF0aD4NCiAgPExvY2FsUGF0aD48L0xvY2FsUGF0aD4NCiAgPFByb3ZpZGVyPjwvUHJvdmlkZXI+DQo8L1NvdXJjZUNvbnRyb2xJbmZvPg==</State>
+  <Database>
+    <Name>Aer Lingus.database</Name>
+    <FullPath>Aer Lingus.database</FullPath>
+  </Database>
+  <Cubes />
+  <Dimensions />
+  <DataSources />
+  <DataSourceViews />
+  <MiningModels />
+  <Roles />
+  <Miscellaneous />
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <OutputPath>bin</OutputPath>
+        <ConnectionMappings />
+        <ConnectionProviderMappings />
+        <ConnectionSecurityMappings />
+        <DatabaseStorageLocations />
+      </Options>
+    </Configuration>
+  </Configurations>
+  <DTSPackages>
+    <DtsPackage FormatVersion="3">
+      <Name>00_Overall_Control.dtsx</Name>
+      <FullPath>00_Overall_Control.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>01_01_Dim_Aircraft_Type.dtsx</Name>
+      <FullPath>01_01_Dim_Aircraft_Type.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>01_02_Dim_Airline.dtsx</Name>
+      <FullPath>01_02_Dim_Airline.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>01_03_Dim_Airport.dtsx</Name>
+      <FullPath>01_03_Dim_Airport.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>01_04_Dim_Bar_Type.dtsx</Name>
+      <FullPath>01_04_Dim_Bar_Type.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>01_05_Dim_Crew_Member.dtsx</Name>
+      <FullPath>01_05_Dim_Crew_Member.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>01_06_Dim_Currency.dtsx</Name>
+      <FullPath>01_06_Dim_Currency.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>01_07_Dim_Date.dtsx</Name>
+      <FullPath>01_07_Dim_Date.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>01_08_Dim_Flight.dtsx</Name>
+      <FullPath>01_08_Dim_Flight.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>01_09_Dim_Packing_Area.dtsx</Name>
+      <FullPath>01_09_Dim_Packing_Area.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>01_11_Dim_Payment_Type.dtsx</Name>
+      <FullPath>01_11_Dim_Payment_Type.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>01_12_Dim_Product.dtsx</Name>
+      <FullPath>01_12_Dim_Product.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>01_13_Dim_Promotion.dtsx</Name>
+      <FullPath>01_13_Dim_Promotion.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>01_16_Dim_Transaction_Type.dtsx</Name>
+      <FullPath>01_16_Dim_Transaction_Type.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>01_17_Dim_VAT_Rate.dtsx</Name>
+      <FullPath>01_17_Dim_VAT_Rate.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>01_18_Dim_WH_Movement_Type.dtsx</Name>
+      <FullPath>01_18_Dim_WH_Movement_Type.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>01_19_Ref_VAT_Rule.dtsx</Name>
+      <FullPath>01_19_Ref_VAT_Rule.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>01_Dimension_Control.dtsx</Name>
+      <FullPath>01_Dimension_Control.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>02_1_Flight_Leg_R2S.dtsx</Name>
+      <FullPath>02_1_Flight_Leg_R2S.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>02_2_Flight_Leg_S2E.dtsx</Name>
+      <FullPath>02_2_Flight_Leg_S2E.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>02_2_Leg_Crew_O2E.dtsx</Name>
+      <FullPath>02_2_Leg_Crew_O2E.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>02_2_Leg_Fact_O2E.dtsx</Name>
+      <FullPath>02_2_Leg_Fact_O2E.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>02_3_Flight_Instance_E2P.dtsx</Name>
+      <FullPath>02_3_Flight_Instance_E2P.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>02_4_Passenger_E2P.dtsx</Name>
+      <FullPath>02_4_Passenger_E2P.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>02_Flight_Leg_Control.dtsx</Name>
+      <FullPath>02_Flight_Leg_Control.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>02_Product_Cost_Control.dtsx</Name>
+      <FullPath>02_Product_Cost_Control.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>02a_1_ProductCost_R2S.dtsx</Name>
+      <FullPath>02a_1_ProductCost_R2S.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>02a_2_Product_Cost_S2E.dtsx</Name>
+      <FullPath>02a_2_Product_Cost_S2E.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>03_1_Flight_Retail_Sales_R2S.dtsx</Name>
+      <FullPath>03_1_Flight_Retail_Sales_R2S.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>03_2_Flight_Retail_Sales_S2E.dtsx</Name>
+      <FullPath>03_2_Flight_Retail_Sales_S2E.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>03_3_Flight_Retail_Sales_E2P.dtsx</Name>
+      <FullPath>03_3_Flight_Retail_Sales_E2P.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>03_Flight_Retail_Sales_Control.dtsx</Name>
+      <FullPath>03_Flight_Retail_Sales_Control.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>04_1_Income_R2S.dtsx</Name>
+      <FullPath>04_1_Income_R2S.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>04_2_Income_S2E.dtsx</Name>
+      <FullPath>04_2_Income_S2E.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>04_3_Income_E2P.dtsx</Name>
+      <FullPath>04_3_Income_E2P.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>04_Income_Control.dtsx</Name>
+      <FullPath>04_Income_Control.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>05_1_Usage_R2S.dtsx</Name>
+      <FullPath>05_1_Usage_R2S.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>05_2_Usage_S2E.dtsx</Name>
+      <FullPath>05_2_Usage_S2E.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>05_3_Original_Usage_E2P.dtsx</Name>
+      <FullPath>05_3_Original_Usage_E2P.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>05_3_Reconciled_Usage_E2P.dtsx</Name>
+      <FullPath>05_3_Reconciled_Usage_E2P.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>05_Usage_Control.dtsx</Name>
+      <FullPath>05_Usage_Control.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>06_1_Stock_Movement_R2S.dtsx</Name>
+      <FullPath>06_1_Stock_Movement_R2S.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>06_2_Stock_Movement_S2E.dtsx</Name>
+      <FullPath>06_2_Stock_Movement_S2E.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>06_3_Stock_Movement_E2P.dtsx</Name>
+      <FullPath>06_3_Stock_Movement_E2P.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>06_Stock_Movement_Control.dtsx</Name>
+      <FullPath>06_Stock_Movement_Control.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+  </DTSPackages>
+</Project>
